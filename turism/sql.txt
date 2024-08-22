@@ -1,0 +1,9 @@
+INSERT INTO albume (artist, album, an_ap, suport, data) VALUES ('Alexandra', 'yoy', '2021', 'DVD', '2022-04-03');
+
+UPDATE albume SET artist = 'modificatu' WHERE id = 12;
+
+UPDATE albume SET album = 'Acum', an_ap = 2022 WHERE id = 14;
+
+SELECT * FROM albume WHERE artist='Alexandra' ORDER BY an_ap DESC 
+
+DELETE FROM albume WHERE id = 3
